@@ -1,0 +1,257 @@
+/*
+
+RCMS API Reference stylesheet
+
+Copyright (C) 2004 Riku Nurminen
+
+*/
+
+
+
+/* ------------------------------------------------------------------- */
+/* base rules */
+
+body {
+    background: white;
+    color: black;
+    margin: 0 20px;
+    font: medium "Trebuchet MS", Verdana, Geneva, Lucida, Helvetica, sans-serif;
+}
+
+
+h1 { text-align: center; }
+
+
+a {
+    color: #ff7e00;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #bf5f00;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* common */
+
+div#footer,
+div.qindex,
+td.indexkey,
+td.indexvalue,
+.mdTable,
+.mdescLeft,
+.mdescRight,
+.memItemLeft,
+.memItemRight,
+td.md,
+td.mdname1,
+td.mdname,
+tr.memlist,
+pre.fragment,
+div.fragment {
+    background-color: #ffe7cf;
+}
+
+
+div#footer,
+div.qindex,
+td.indexkey,
+td.indexvalue,
+.mdTable,
+pre.fragment,
+div.fragment {
+    border: 1px solid #ffb164;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* footer */
+
+div#footer {
+    margin: 20px 0 20px 0;
+    padding: 5px;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* header table cells */
+
+div.qindex {
+    width: 100%;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+    line-height: 120%;
+}
+
+
+a.qindex {
+    color: #ff7e00;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px;
+}
+
+a.qindex:hover {
+    color: white;
+    background-color: #ff9933;
+}
+
+a.qindexHL, a.qindexHL:hover {
+    background-color: #ff9933;
+    border: 1px double #ffb873;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* class listing table cells */
+
+td.indexkey {
+    font-weight: bold;
+    margin: 2px 0;
+    padding: 2px 10px;
+}
+
+td.indexvalue {
+    font-style: italic;
+    margin: 2px 0;
+    padding: 2px 10px;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* class member documentation */
+
+/* outer */
+.mdRow {
+    padding: 8px 10px;
+}
+
+
+/* inner */
+.mdescLeft {
+    border: 1px none #ffb873;
+    font-size: smaller;
+    font-style: italic;
+    padding-left: 8px;
+    margin: 0px;
+}
+
+
+.mdescRight {
+    border: 1px none #ffb873;
+    font-size: smaller;
+    font-style: italic;
+    padding-left: 4px;
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-right: 8px;
+}
+
+
+.memItemLeft {
+    border-width: 1px;
+    border-color: #ffb873;
+    border-style: solid none none none;
+    padding: 1px 0px 0px 8px;
+    margin: 4px;
+    font-size: 12px;
+}
+
+
+.memItemRight {
+    border-width: 1px;
+    border-color: #ffb873;
+    border-style: solid none none none;
+    padding: 1px 0px 0px 8px;
+    margin: 4px;
+    font-size: 13px;
+}
+
+
+td.md {
+    font-weight: bold;
+}
+
+
+td.mdname1 {
+    font-weight: bold;
+    color: #602020;
+}
+
+
+td.mdname {
+    font-weight: bold;
+    color: #602020;
+    width: 600px;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* code listing & examples */
+
+
+pre.fragment {
+    margin: 4px 8px 4px 2px;
+    padding: 4px 6px;
+}
+
+
+div.fragment {
+    padding: 6px;
+}
+
+
+a.code {
+    text-decoration: none;
+    font-weight: normal;
+    color: #ff7e00;
+}
+
+a.codeRef {
+    font-weight: normal;
+    color: #ff7e00;
+}
+
+
+span.keyword { color: #1119bf; }
+span.keywordtype { color: #0e9100; }
+span.keywordflow { color: #0e9100; }
+span.comment { color: #994800; }
+span.preprocessor { color: #806020; }
+span.stringliteral { color: #bb0000; }
+span.charliteral { color: #00aa94; }
+
+
+
+/* ------------------------------------------------------------------- */
+/* alphabetical list letters */
+
+div.ah {
+    background-color: black;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 3px 0;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* misc */
+
+a.el { text-decoration: none; font-weight: bold }
+a.elRef { font-weight: bold }
+
+dl.el { margin-left: -1cm }
